@@ -25,7 +25,6 @@ function add_task() {
     tasks.push(task);
     // Provide feedback to the user
     console.log("Task added successfully!");
-    console.log(tasks);
 }
 
 // Function to remove a task from the tasks array
@@ -36,7 +35,6 @@ function remove_task() {
     tasks.splice(remove_order - 1, 1);
     // Provide feedback to the user
     console.log("Task removed successfully!");
-    console.log(tasks);
 }
 
 // Function to view all tasks in the tasks array
